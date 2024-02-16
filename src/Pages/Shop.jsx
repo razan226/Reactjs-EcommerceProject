@@ -5,6 +5,7 @@ import { Offers } from '../Components/Offers/Offers'
 import { NewCollections } from '../Components/NewCollection/NewCollections'
 import { NewsLetter } from '../Components/NewsLetter/NewsLetter'
 import { Footer } from '../Components/Footer/Footer'
+import { Cart } from './Cart'
 
 export const Shop = () => {
   return (
@@ -15,6 +16,7 @@ export const Shop = () => {
       <Offers/>
       <NewCollections/>
       <NewsLetter/>
+      
     
 
     </div>
